@@ -1,0 +1,32 @@
+.hero__container {
+    background: #163A24;
+    border-radius: 0px;
+    padding: 0px 80px 0px 130px;
+    display: flex;
+}
+
+.hero__wrapper {
+    padding-top: 120px;
+    margin-right: 22px;
+    max-width: 475px;
+    // margin-right: 106px;
+}
+
+.hero__heading {
+    // max-width: 391px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBFAF7;
+    margin-bottom: 18px;
+    // margin-right: 106px;
+    
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+    
+}

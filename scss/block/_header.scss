@@ -1,0 +1,38 @@
+.header__container {
+    background: #163A24;
+    border-radius: 0px;
+    padding: 20px 140px 25px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FBFAF7;
+    margin-right: 24px;
+}
+
+.header__link:hover {
+    color: yellow;
+    opacity: 0.8;
+}
+
+.header__btn {
+    background: #198C36;
+    border-radius: 160px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FBFAF7;
+    padding: 15px 25px;
+}
+
+.header__btn:hover {
+    color: yellow;
+    opacity: 0.8;
+}

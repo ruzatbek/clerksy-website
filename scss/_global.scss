@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    // max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto-Sans' , 'Recoleta' , serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
